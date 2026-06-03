@@ -1,0 +1,39 @@
+#header {
+    border: 2px solid rgb(150, 75, 0);
+    border-radius: 8px;
+    background-color: rgba(150, 75, 0, 0.6);
+    padding: 10px;
+}
+.menu ul {
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li{
+    display:inline;
+}
+
+.menu ul li a{
+    color:black;
+    text-decoration: none;
+}
+.container {
+    display: flex;
+    gap: 10px;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+#footer {
+    border: 2px solid rgb(150, 75, 0);
+    border-radius: 8px;
+    background-color: rgba(150, 75, 0, 0.6);
+    padding: 10px;
+}
+#footer i{
+    font-size: 36px;
+}
