@@ -49,9 +49,14 @@
     border: 3px solid rgba(141, 131, 131, 0.534);
     width: 65%;
     margin: 3rem;
+    background-color: rgba(219, 214, 214, 0.74);
 }
 
 .example-content-secondary h5 {
     padding: 3px;
     border-bottom: 2px solid black;
+}
+
+#projectList{
+    padding: 1rem;
 }
