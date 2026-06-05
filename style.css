@@ -1,39 +1,36 @@
-#header {
-    border: 2px solid rgb(150, 75, 0);
-    border-radius: 8px;
-    background-color: rgba(150, 75, 0, 0.6);
-    padding: 10px;
-}
-.menu ul {
-    list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.menu li{
-    display:inline;
-}
-
-.menu ul li a{
-    color:black;
-    text-decoration: none;
-}
-.container {
+.main{
     display: flex;
-    gap: 10px;
+    flex-direction: row;
+    gap: 1rem;
 }
-.item{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-}
-#footer {
-    border: 2px solid rgb(150, 75, 0);
-    border-radius: 8px;
-    background-color: rgba(150, 75, 0, 0.6);
+.pengeluaran{
+    border: 1px groove rgba(0, 0, 0, 0.438);
+    margin: 1rem;
     padding: 10px;
+    width: 40%;
 }
-#footer i{
-    font-size: 36px;
+.pengeluaran h4{
+    color: rgb(224, 72, 97);
+}
+.pengeluaran input{
+    width: 100%;
+}
+.simpandata{
+    background-color: rgb(224, 72, 97);
+  color: white;
+  font-size: 15px;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 1rem;
+  width: 100%;
+}
+.hasil{
+    margin: 1rem;
+    border: 1px groove rgba(0, 0, 0, 0.438);
+    width: 60%;
+}
+.hasil h4{
+    margin: 1rem;
 }
