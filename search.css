@@ -1,0 +1,26 @@
+.main h3{
+    color: rgb(73, 73, 241);
+    float: left;
+}
+.search{
+    margin: 1rem;
+}
+.search input{
+  border: solid 1px rgba(22, 22, 22, 0.479);
+  font-size: 17px;
+  float: right;
+}
+.search button{
+  background: #ddd;
+  font-size: 19px;
+  border: none;
+  cursor: pointer;
+  float: right;
+}
+.search button:hover {
+  background: #ccc;
+}
+.footer{
+    float: right;
+    margin: 1rem;
+}
