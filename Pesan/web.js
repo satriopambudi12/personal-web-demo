@@ -48,3 +48,6 @@ from.addEventListener('submit', function(event){
     projects.push(newProject);
     renderProjects();
 })
+
+// SUBMIT // 
+

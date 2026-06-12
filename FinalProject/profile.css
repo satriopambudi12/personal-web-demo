@@ -1,0 +1,147 @@
+.navbar-brand{
+    color: #04AA6D;
+    font-family: Calibri;
+}
+
+.logout a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-nav a{
+    font-weight: 700;
+    border-bottom: 3px solid #04aa6d00;
+}
+
+.navbar-nav a:hover{
+    border-bottom: 3px solid #04AA6D;
+    transition: all;
+    transition-duration: 300ms;
+}
+
+.logout a{
+    padding: 8px 0;
+    border-bottom: 3px solid #04aa6d00;
+}
+.logout a:hover{
+    border-bottom: 3px solid #04AA6D;
+    transition: all;
+    transition-duration: 300ms;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+.profile{
+    border-right: 1px solid black;
+    width: 60%;
+    padding: 10px;
+}
+
+.profile button{
+    background-color: #04AA6D;
+  color: white;
+  border: none;
+  cursor: pointer;;
+  border-radius: 10px;
+  padding: 3px 15px;
+  width: 100%;
+}
+
+.profile button:hover{
+    opacity: 0.8;
+}
+
+.komentar{
+    margin: 2px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.profilebar{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 40%;
+}
+
+.myprofile{
+    background-color: #9df3d4;
+    border-radius: 10px;
+    margin: 12px 5px;
+    padding: 3px 8px;
+    text-align: center;
+}
+
+.myprofile i{
+    font-size: 10rem;
+    padding-left: 11rem;
+}
+.myprofile img{
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.suggest {
+    background-color: #9df3d4;
+    border-radius: 10px;
+    margin: 12px 5px;
+    padding: 3px 8px;
+}
+
+.profilebar h5{
+    margin: 5px 5px;
+}
+
+.suggest1 {
+    display: flex;
+    gap: 4px;
+    flex-direction: column;
+}
+
+.suggest1 i{
+    font-size: 36px;
+}
+
+.suggest1 button{
+    border-radius: 10px;
+    background-color: #04AA6D;
+    padding: 3px;
+    width: 20%;
+    text-align: center;
+    border: none;
+}
+
+.suggest1 button:hover{
+    opacity: 0.8;
+}
+
+.develop{
+    background-color: #9df3d4;
+    border-radius: 10px;
+    margin: 12px 5px;
+    padding: 3px 8px;
+}
+
+.kartu{
+    display: flex;
+    background-color: #9df3d4;
+    border-radius: 10px;
+    margin: 12px 5px;
+    padding: 3px 8px;
+}
+
+.kartu img{
+    border-radius: 50%;
+    object-fit: cover;
+    width: 75px;
+}
+
+.kartu i{
+    font-size: 1rem;
+}
+
+.kartu i:hover{
+    color: red;
+}
